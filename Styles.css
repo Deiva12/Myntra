@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+
+    border-bottom: solid rgba(211, 210, 205, 0.842);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    /* position: fixed; */
+    align-items: center;
+    display: flex;
+}
+.image{
+    flex-grow: 0.2;
+    padding-left: 4vh;
+    padding-right: 5vh;
+}
+.firsthalf{
+    display:flex; 
+}
+
+.ddbtn{
+    padding: 2vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    border: 0px;
+}
+
+/*  */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-menu li {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropdown-item {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-item a {
+    color: black;
+    padding: 12px 16px;
+    /* text-decoration: none; */
+    display: block;
+  }
+  .dropdown-items-item{
+    list-style-type: none;
+  }
+  .dropdown-items-item li:hover{font-size: large;}
+  
+  .dropdown-menu a:hover {border-bottom: 2px solid cornflowerblue;}
+  
+  .dropdown:hover .dropdown-menu {display: block;}
+  
+  .dropdown:hover .ddbtn {border-bottom: 5px solid pink;}
+.Explore{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:large ;
+    background-color: white;
+    padding: 0.5vh;
+    border: 2px solid black ;
+}
+/*  */
+
+.Profileitem{
+    font-size: small;
+    display:flex;
+}
+.searchicon{
+    display: flex;
+    padding-left: 4vh;
+}
+.Searchimage{
+    padding-top: 1.5vh;
+    padding-right: 1vh;
+}
+input{
+    flex-grow: 9;
+    padding-right: 10vh;
+    border-radius: 2vh;
+    border:0px;
+    height:5vh;
+    width: 70vh;
+    background-color: rgb(219, 218, 218);
+    justify-content: space-evenly;
+}
+.profile{
+    padding-top: 2vh;
+    padding-left: 10vh;
+    padding-right: 2vh;
+}
+
+.wishlist{
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.bags{
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+.slideimages{
+    padding-top: 5vh !important;
+}
+.shopbycategory{
+     padding-top: 20px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: cornflowerblue;
+     font-size: x-large;
+}
+.overalloffer{
+    display: flex;
+    row-gap: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.shopimage{
+    display: flex;
+
+    justify-content: space-evenly;
+}
+.card1{
+border: 0px solid white ;
+}
+.card1:hover{
+    transform: scale(1.15,1.15);
+    transition: 100ms;
+}
+.card2{
+
+    border: 0px solid white ;
+}
+.card2:hover{
+    transform: scale(1.15,1.15);
+    transition: 100ms;
+}
+.card3{
+    border: 0px solid white ;
+}
+.card3:hover{
+    transform: scale(1.15,1.15);
+    transition: 100ms;
+}
+.card4{
+    border: 0px solid white ;
+}
+.card4:hover{
+    transform: scale(1.15,1.15);
+    transition: 100ms;
+}
+.card5{
+    border: 0px solid white ;
+}
+.card5:hover{
+    transform: scale(1.15,1.15);
+    transition: 100ms;
+}
+.moreoffer{
+    padding: 50px;
+    
+}
+.onlineshopping{
+    list-style-type: none;
+}
+.bottom{
+    display:flex;
+    justify-content: center;
+    column-gap: 3vh;
+}
+@media screen and (width:75%){
+    .firsthalf{
+        display:flex; 
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+}
